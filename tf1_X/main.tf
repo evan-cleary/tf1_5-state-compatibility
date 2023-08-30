@@ -2,7 +2,7 @@ terraform {
   backend "local" {
 
   }
-  required_version = ">=1.0"
+  required_version = ">=1.3,<1.5"
 }
 
 data "terraform_remote_state" "tf1_5_state_with_checks" {
